@@ -1,310 +1,146 @@
 <!DOCTYPE html>
-
-
-
-  
-
-
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html>
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <meta charset="utf-8">
+  
 
   
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-
-
-
-
-
-<meta name="description" content="这是描述。哈哈">
-<meta name="keywords" content="这是关键词。666">
-<meta property="og:type" content="website">
-<meta property="og:title" content="June&#39;s Blog">
-<meta property="og:url" content="https://junezm.github.io/index.html">
-<meta property="og:site_name" content="June&#39;s Blog">
-<meta property="og:description" content="这是描述。哈哈">
-<meta property="og:locale" content="zh-Hans">
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Hexo">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="June&#39;s Blog">
-<meta name="twitter:description" content="这是描述。哈哈">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Pisces',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="https://junezm.github.io/"/>
-
-
-
-
-
-  <title>June's Blog</title>
+<meta name="twitter:title" content="Hexo">
   
-
-
-
-
-
-
-
-
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  
-  
-    
-  
-
-  <div class="container sidebar-position-left 
-  page-home">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">June's Blog</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
     </div>
-      
-        <p class="site-subtitle">Hello World</p>
-      
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSSフィード"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="検索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
   </div>
-
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-机器学习基石（第3周）学习笔记-Types-of-Learning" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/04/14/机器学习基石（第3周）学习笔记-Types-of-Learning/" class="article-date">
+  <time datetime="2018-04-14T15:11:25.000Z" itemprop="datePublished">2018-04-14</time>
+</a>
+    
   </div>
-</div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
-</nav>
-
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
+  <div class="article-inner">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://junezm.github.io/2018/04/04/机器学习基石上（第2周）学习笔记/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="June Chang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="June's Blog">
-    </span>
-
     
-      <header class="post-header">
-
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/04/机器学习基石上（第2周）学习笔记/" itemprop="url">机器学习基石上（第2周）学习笔记--Learning to Answer Yes/No</a></h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/04/14/机器学习基石（第3周）学习笔记-Types-of-Learning/">机器学习基石（第3周）学习笔记--Types of  Learning</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-04T21:05:23+08:00">
-                2018-04-04
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
       </header>
     
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="上一周回顾"><a href="#上一周回顾" class="headerlink" title="上一周回顾"></a>上一周回顾</h1><p>上节课我们主要介绍了解决线性分类问题的一个简单的方法：PLA。PLA能够在平面中选择一条直线将样本数据完全正确分类。而对于线性不可分的情况，可以使用Pocket Algorithm来处理。本节课将主要介绍一下机器学习有哪些种类，并进行归纳。</p>
+<h1 id="1-Learning-with-Different-Output-Space-Y"><a href="#1-Learning-with-Different-Output-Space-Y" class="headerlink" title="1.Learning with Different Output Space Y"></a>1.Learning with Different Output Space Y</h1><p>我们在上节课引入的银行根据用户个人情况判断是否给他发信用卡的例子，这是一个典型的二元分类（binary classification）问题。也就是说输出只有两个，一般y={-1, +1}，-1代表不发信用卡（负类），+1代表发信用卡（正类）。</p>
+<p>二元分类的问题很常见，包括信用卡发放、垃圾邮件判别、患者疾病诊断、答案正确性估计等等。二元分类是机器学习领域非常核心和基本的问题。二元分类有线性模型也有非线性模型，根据实际问题情况，选择不同的模型。<br><img src="https://img-blog.csdn.net/20170609080354964?" alt="avatar"><br>除了二元分类，也有多元分类（Multiclass Classification）问题。顾名思义，多元分类的输出多于两个，y={1, 2, … , K}, K&gt;2. 一般多元分类的应用有数字识别、图片内容识别等等。<br><img src="https://img-blog.csdn.net/20170609081211320?" alt="avatar"><br>二元分类和多元分类都属于分类问题，它们的输出都是离散值。二对于另外一种情况，比如训练模型，预测房屋价格、股票收益多少等，这类问题的输出y=R，即范围在整个实数空间，是连续的。这类问题，我们把它叫做回归（Regression）。最简单的线性回归是一种典型的回归模型。</p>
+<p>除了分类和回归问题，在自然语言处理等领域中，还会用到一种机器学习问题：结构化学习（Structured Learning）。结构化学习的输出空间包含了某种结构在里面，它的一些解法通常是从多分类问题延伸而来的，比较复杂。本系列课程不会详细介绍Structured Learning，有兴趣的读者可以自行对它进行更深入的研究。</p>
+<p>简单总结一下，机器学习按照输出空间划分的话，包括二元分类、多元分类、回归、结构化学习等不同的类型。其中二元分类和回归是最基础、最核心的两个类型，也是我们课程主要介绍的部分。</p>
+<h1 id="2-Learning-with-Different-Data-Label-yn"><a href="#2-Learning-with-Different-Data-Label-yn" class="headerlink" title="2.Learning with Different Data Label yn"></a>2.Learning with Different Data Label yn</h1><p>如果我们拿到的训练样本D既有输入特征x，也有输出yn，那么我们把这种类型的学习称为监督式学习（Supervised Learning）。监督式学习可以是二元分类、多元分类或者是回归，最重要的是知道输出标签yn。与监督式学习相对立的另一种类型是非监督式学习（Unsupervised learning）。非监督式学习是没有输出标签yn的，典型的非监督式学习包括：聚类（clustering）问题，比如对网页上新闻的自动分类；密度估计，比如交通路况分析；异常检测，比如用户网络流量监测。通常情况下，非监督式学习更复杂一些，而且非监督的问题很多都可以使用监督式学习的一些算法思想来实现。<br><img src="https://img-blog.csdn.net/20170609084807897?" alt="avatar"><br>介于监督式和非监督式学习之间的叫做半监督式学习（Semi-supervised Learning）。顾名思义，半监督式学习就是说一部分数据有输出标签yn，而另一部分数据没有输出标签yn。在实际应用中，半监督式学习有时候是必须的，比如医药公司对某些药物进行检测，考虑到成本和实验人群限制等问题，只有一部分数据有输出标签yn。</p>
+<p>监督式、非监督式、半监督式学习是机器学习领域三个主要类型。除此之外，还有一种非常重要的类型：增强学习（Reinforcement Learning）。增强学习中，我们给模型或系统一些输入，但是给不了我们希望的真实的输出y，根据模型的输出反馈，如果反馈结果良好，更接近真实输出，就给其正向激励，如果反馈结果不好，偏离真实输出，就给其反向激励。不断通过“反馈-修正”这种形式，一步一步让模型学习的更好，这就是增强学习的核心所在。增强学习可以类比成训练宠物的过程，比如我们要训练狗狗坐下，但是狗狗无法直接听懂我们的指令“sit down”。在训练过程中，我们给狗狗示意，如果它表现得好，我们就给他奖励，如果它做跟sit down完全无关的动作，我们就给它小小的惩罚。这样不断修正狗狗的动作，最终能让它按照我们的指令来行动。实际生活中，增强学习的例子也很多，比如根据用户点击、选择而不断改进的广告系统</p>
+<p>简单总结一下，机器学习按照数据输出标签yn划分的话，包括监督式学习、非监督式学习、半监督式学习和增强学习等。其中，监督式学习应用最为广泛。<br><img src="https://img-blog.csdn.net/20170609084807897?" alt="avatar"> </p>
+<h1 id="3-Learning-with-Different-Protocol-f-xn-yn"><a href="#3-Learning-with-Different-Protocol-f-xn-yn" class="headerlink" title="3.Learning with Different Protocol f(xn,yn)"></a>3.Learning with Different Protocol f(xn,yn)</h1><p>按照不同的协议，机器学习可以分为三种类型：</p>
+<p>Batch Learning</p>
+<p>Online</p>
+<p>Active Learning</p>
+<p>batch learning是一种常见的类型。batch learning获得的训练数据D是一批的，即一次性拿到整个D，对其进行学习建模，得到我们最终的机器学习模型。batch learning在实际应用中最为广泛。</p>
+<p>online是一种在线学习模型，数据是实时更新的，根据数据一个个进来，同步更新我们的算法。比如在线邮件过滤系统，根据一封一封邮件的内容，根据当前算法判断是否为垃圾邮件，再根据用户反馈，及时更新当前算法。这是一个动态的过程。之前我们介绍的PLA和增强学习都可以使用online模型。</p>
+<p>active learning是近些年来新出现的一种机器学习类型，即让机器具备主动问问题的能力，例如手写数字识别，机器自己生成一个数字或者对它不确定的手写字主动提问。active learning优势之一是在获取样本label比较困难的时候，可以节约时间和成本，只对一些重要的label提出需求。</p>
+<p>简单总结一下，按照不同的协议，机器学习可以分为batch, online, active。这三种学习类型分别可以类比为：填鸭式，老师教学以及主动问问题。<br><img src="https://img-blog.csdn.net/20170609101642114?" alt="avatar"></p>
+<h1 id="4-Learning-with-Different-Protocol-f-xn-yn"><a href="#4-Learning-with-Different-Protocol-f-xn-yn" class="headerlink" title="4.Learning with Different Protocol f(xn,yn)"></a>4.Learning with Different Protocol f(xn,yn)</h1><p>上面几部分介绍的机器学习分类都是根据输出来分类的，比如根据输出空间进行分类，根据输出y的标记进行分类，根据取得数据和标记的方法进行分类。这部分，我们将谈谈输入X有哪些类型。</p>
+<p>输入X的第一种类型就是concrete features。比如说硬币分类问题中硬币的尺寸、重量等；比如疾病诊断中的病人信息等具体特征。concrete features对机器学习来说最容易理解和使用。</p>
+<p>第二种类型是raw features。比如说手写数字识别中每个数字所在图片的mxn维像素值；比如语音信号的频谱等。raw features一般比较抽象，经常需要人或者机器来转换为其对应的concrete features，这个转换的过程就是Feature Transform。</p>
+<p>第三种类型是abstract features。比如某购物网站做购买预测时，提供给参赛者的是抽象加密过的资料编号或者ID，这些特征X完全是抽象的，没有实际的物理含义。所以对于机器学习来说是比较困难的，需要对特征进行更多的转换和提取。</p>
+<p>简单总结一下，根据输入X类型不同，可以分为concetet, raw, abstract。将一些抽象的特征转换为具体的特征，是机器学习过程中非常重要的一个环节。在《机器学习技法》课程中，我们再详细介绍。<br><img src="https://img-blog.csdn.net/20170609104530535?" alt="avatar"></p>
 
       
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/04/14/机器学习基石（第3周）学习笔记-Types-of-Learning/" data-id="cjfziqvq600008cd65prbni5m" class="article-share-link">共有</a>
       
+      
+    </footer>
+  </div>
+  
+</article>
 
-      
+
+  
+    <article id="post-机器学习基石上（第2周）学习笔记" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/04/04/机器学习基石上（第2周）学习笔记/" class="article-date">
+  <time datetime="2018-04-04T13:05:23.000Z" itemprop="datePublished">2018-04-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
         
-          
-            <h1 id="上一周回顾"><a href="#上一周回顾" class="headerlink" title="上一周回顾"></a>上一周回顾</h1><p>第一周题目为 The Learning Problem，主要讲了机器学习的定义和应用，并介绍了机器学习流程，如下图所示。<br>训练样本D，使用算法A，在假设模型集中选择最优的，训练后得到 g（假设函数）≈f(目标函数)。<br><img src="https://img-blog.csdn.net/20170607153730795?" alt="avatar"><br>本周主要讲解PLA(感知机算法)，即二分类算法之一。</p>
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/04/04/机器学习基石上（第2周）学习笔记/">机器学习基石上（第2周）学习笔记--Learning to Answer Yes/No</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="上一周回顾"><a href="#上一周回顾" class="headerlink" title="上一周回顾"></a>上一周回顾</h1><p>第一周题目为 The Learning Problem，主要讲了机器学习的定义和应用，并介绍了机器学习流程，如下图所示。<br>训练样本D，使用算法A，在假设模型集中选择最优的，训练后得到 g（假设函数）≈f(目标函数)。<br><img src="https://img-blog.csdn.net/20170607153730795?" alt="avatar"><br>本周主要讲解PLA(感知机算法)，即二分类算法之一。</p>
 <h1 id="1-Perceptron-Hypothesis-Set"><a href="#1-Perceptron-Hypothesis-Set" class="headerlink" title="1.Perceptron Hypothesis Set"></a>1.Perceptron Hypothesis Set</h1><p>继续以上一周的信用卡申请为例，如下图。银行根据用户的年龄、年收入、工作年限、负债等情况来判断是否给该用户发信用卡。<br><img src="https://img-blog.csdn.net/20160512221250323?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt="avatar"><br>现在的训练集D：历史用户的信息和是否发了信用卡。在机器学习流程中，在模型集 H 中选择合适的模型非常重要。下面要讲解的Hypothesis Set:感知机（Perceptron）。</p>
 <p>上面的例子，</p>
 <pre><code>个人信息 = 特征向量x(i)
@@ -333,125 +169,42 @@
 <p>出现不可分的一种可能是从未知目标函数中产生的训练样本存在噪音（noise），如录入样本时有人工的错误等情况导致数据本身不正确，使得最终本可以线性可分的样本集变得线性不可分了。这时，机器学习流程是这样的：<br><img src="https://img-blog.csdn.net/20170608150716294?" alt="avatar"><br>在非线性情况下，我们可以把条件放松，即不苛求每个点都分类正确，而是容忍有错误点，取错误点的个数最少时的权重w：<br><img src="https://img-blog.csdn.net/20170608151418751?" alt="avatar"><br>事实证明，上面的解是NP-hard问题，难以求解。然而，我们可以对在线性可分类型中表现很好的PLA做个修改，把它应用到非线性可分类型中，获得近似最好的g。</p>
 <p>修改后的PLA称为Packet Algorithm。它的算法流程与PLA基本类似，首先初始化权重w0，计算出在这条初始化的直线中，分类错误点的个数。然后对错误点进行修正，更新w，得到一条新的直线，在计算其对应的分类错误的点的个数，并与之前错误点个数比较，取个数较小的直线作为我们当前选择的分类直线。之后，再经过n次迭代，不断比较当前分类错误点个数与之前最少的错误点个数比较，选择最小的值保存。直到迭代次数完成后，选取个数最少的直线对应的w，即为我们最终想要得到的权重值。<br><img src="https://img-blog.csdn.net/20170608155259223?" alt="avatar"><br>如何判断数据集D是不是线性可分？对于二维数据来说，通常还是通过肉眼观察来判断的。一般情况下，Pocket Algorithm要比PLA速度慢一些。</p>
 
-          
-        
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/04/04/机器学习基石上（第2周）学习笔记/" data-id="cjfl3uqmp00004sd6joonjhdt" class="article-share-link">共有</a>
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-  
-  
-  </article>
+</article>
 
 
+  
+    <article id="post-机器学习基石上（第1周）学习笔记" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/04/01/机器学习基石上（第1周）学习笔记/" class="article-date">
+  <time datetime="2018-04-01T13:26:00.000Z" itemprop="datePublished">2018-04-01</time>
+</a>
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://junezm.github.io/2018/04/01/机器学习基石上（第1周）学习笔记/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="June Chang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="June's Blog">
-    </span>
-
+  </div>
+  <div class="article-inner">
     
-      <header class="post-header">
-
+    
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/01/机器学习基石上（第1周）学习笔记/" itemprop="url">机器学习基石上（第1周）学习笔记--The learning Problem</a></h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/04/01/机器学习基石上（第1周）学习笔记/">机器学习基石上（第1周）学习笔记--The learning Problem</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-01T21:26:00+08:00">
-                2018-04-01
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
       </header>
     
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+    <div class="article-entry" itemprop="articleBody">
       
-      
-
-      
-        
-          
-            <h1 id="1-课程介绍"><a href="#1-课程介绍" class="headerlink" title="1.课程介绍"></a>1.课程介绍</h1><p>林轩田老师介绍了“机器学习基石（上）”的课程安排。</p>
+        <h1 id="1-课程介绍"><a href="#1-课程介绍" class="headerlink" title="1.课程介绍"></a>1.课程介绍</h1><p>林轩田老师介绍了“机器学习基石（上）”的课程安排。</p>
 <h1 id="2-什么是机器学习"><a href="#2-什么是机器学习" class="headerlink" title="2.什么是机器学习"></a>2.什么是机器学习</h1><p>学习：获取技能</p>
 <pre><code>观察 -&gt;学习 -&gt;技能
 </code></pre><p> 机器学习：获取技能</p>
@@ -488,125 +241,44 @@
 </code></pre><p>通过性质2反证即可。</p>
 <h3 id="1-2-组合数的应用于概率"><a href="#1-2-组合数的应用于概率" class="headerlink" title="1.2. 组合数的应用于概率"></a>1.2. 组合数的应用于概率</h3><h3 id="1-3-条件概率"><a href="#1-3-条件概率" class="headerlink" title="1.3. 条件概率"></a>1.3. 条件概率</h3><h3 id="1-4-贝叶斯定理"><a href="#1-4-贝叶斯定理" class="headerlink" title="1.4. 贝叶斯定理"></a>1.4. 贝叶斯定理</h3><h3 id="1-5-交集和并集"><a href="#1-5-交集和并集" class="headerlink" title="1.5. 交集和并集"></a>1.5. 交集和并集</h3><h2 id="2-线性代数"><a href="#2-线性代数" class="headerlink" title="2. 线性代数"></a>2. 线性代数</h2><h3 id="2-1-矩阵的秩"><a href="#2-1-矩阵的秩" class="headerlink" title="2.1. 矩阵的秩"></a>2.1. 矩阵的秩</h3><h3 id="2-2-逆矩阵"><a href="#2-2-逆矩阵" class="headerlink" title="2.2. 逆矩阵"></a>2.2. 逆矩阵</h3><h3 id="2-3-特征值和特征向量"><a href="#2-3-特征值和特征向量" class="headerlink" title="2.3. 特征值和特征向量"></a>2.3. 特征值和特征向量</h3><h3 id="2-4-矩阵的秩"><a href="#2-4-矩阵的秩" class="headerlink" title="2.4. 矩阵的秩"></a>2.4. 矩阵的秩</h3><h3 id="2-5-正定矩阵和非正定矩阵"><a href="#2-5-正定矩阵和非正定矩阵" class="headerlink" title="2.5. 正定矩阵和非正定矩阵"></a>2.5. 正定矩阵和非正定矩阵</h3><h3 id="2-6-矩阵的乘"><a href="#2-6-矩阵的乘" class="headerlink" title="2.6. 矩阵的乘"></a>2.6. 矩阵的乘</h3><h2 id="3-微积分"><a href="#3-微积分" class="headerlink" title="3. 微积分"></a>3. 微积分</h2><h3 id="3-1-导数和偏导数"><a href="#3-1-导数和偏导数" class="headerlink" title="3.1 导数和偏导数"></a>3.1 导数和偏导数</h3><h3 id="3-2-复合导数求偏导"><a href="#3-2-复合导数求偏导" class="headerlink" title="3.2 复合导数求偏导"></a>3.2 复合导数求偏导</h3><h3 id="3-3-梯度和hession"><a href="#3-3-梯度和hession" class="headerlink" title="3.3 梯度和hession"></a>3.3 梯度和hession</h3><h3 id="3-4-泰勒展开式"><a href="#3-4-泰勒展开式" class="headerlink" title="3.4 泰勒展开式"></a>3.4 泰勒展开式</h3><h3 id="3-5-优化（极值）"><a href="#3-5-优化（极值）" class="headerlink" title="3.5 优化（极值）"></a>3.5 优化（极值）</h3><h3 id="3-6-矢量微积分"><a href="#3-6-矢量微积分" class="headerlink" title="3.6 矢量微积分"></a>3.6 矢量微积分</h3><p>上面的作业就是学习本课程的基础数学知识点。</p>
 
-          
-        
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/04/01/机器学习基石上（第1周）学习笔记/" data-id="cjfgygcij0001jwd6suf4eeyn" class="article-share-link">共有</a>
       
       
-        <div class="post-eof"></div>
-      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/机器学习/">机器学习</a></li></ul>
+
     </footer>
   </div>
   
-  
-  
-  </article>
+</article>
 
 
+  
+    <article id="post-Hello-github" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/03/26/Hello-github/" class="article-date">
+  <time datetime="2018-03-26T13:26:29.000Z" itemprop="datePublished">2018-03-26</time>
+</a>
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://junezm.github.io/2018/03/26/Hello-github/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="June Chang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="June's Blog">
-    </span>
-
+  </div>
+  <div class="article-inner">
     
-      <header class="post-header">
-
+    
+      <header class="article-header">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/03/26/Hello-github/" itemprop="url">Markdowm简明语法学习</a></h1>
-        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/26/Hello-github/">Markdowm简明语法学习</a>
+    </h1>
+  
 
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-26T21:26:29+08:00">
-                2018-03-26
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
       </header>
     
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+    <div class="article-entry" itemprop="articleBody">
       
-      
-
-      
-        
-          
-            <h3 id="1-斜体和粗体"><a href="#1-斜体和粗体" class="headerlink" title="1.斜体和粗体"></a>1.斜体和粗体</h3><p>使用 * 和 ** 分别表示斜体和粗体</p>
+        <h3 id="1-斜体和粗体"><a href="#1-斜体和粗体" class="headerlink" title="1.斜体和粗体"></a>1.斜体和粗体</h3><p>使用 * 和 ** 分别表示斜体和粗体</p>
 <p><em>斜体</em> <strong>粗体</strong></p>
 <h3 id="2-分级标题"><a href="#2-分级标题" class="headerlink" title="2. 分级标题"></a>2. 分级标题</h3><p>使用 === 表示一级标题，使用 — 表示二级标题。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">这是一个一级标题</span><br><span class="line">==========</span><br><span class="line">这是一个二级标题</span><br><span class="line">----------</span><br><span class="line">### 这是一个三级标题</span><br></pre></td></tr></table></figure>
@@ -640,344 +312,119 @@ let b = 3;
 let foo = (a, b) =&gt; a+b
 </code></pre><h3 id="7-插入图片"><a href="#7-插入图片" class="headerlink" title="7. 插入图片"></a>7. 插入图片</h3><p><img src="https://t11.baidu.com/it/u=261204805,3272339267&amp;fm=173&amp;app=25&amp;f=JPEG?w=639&amp;h=426&amp;s=98B3F1B474099EEF6C105E090300E0DC" alt="我的图片"></p>
 
-          
-        
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/03/26/Hello-github/" data-id="cjfgygcif0000jwd6xryyaq9f" class="article-share-link">共有</a>
       
       
-        <div class="post-eof"></div>
-      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
+
     </footer>
   </div>
   
-  
-  
-  </article>
+</article>
 
-
-    
-  </section>
 
   
 
 
-          </div>
-          
-
-
-          
-
-        </div>
+</section>
         
-          
+          <aside id="sidebar">
   
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">タグ</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/机器学习/">机器学习</a></li></ul>
     </div>
   </div>
 
-  <aside id="sidebar" class="sidebar">
-    
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <img class="site-author-image" itemprop="image"
-                src="/uploads/avatar.png"
-                alt="June Chang" />
-            
-              <p class="site-author-name" itemprop="name">June Chang</p>
-              <p class="site-description motion-element" itemprop="description">这是描述。哈哈</p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/">
-              
-                  <span class="site-state-item-count">3</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
-
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">标签</span>
-                
-              </div>
-            
-
-          </nav>
-
-          
-
-          
-            <div class="links-of-author motion-element">
-                
-                  <span class="links-of-author-item">
-                    <a href="https://github.com/junezm" target="_blank" title="GitHub">
-                      
-                        <i class="fa fa-fw fa-github"></i>GitHub</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="mailto:junezm@foxmail.com" target="_blank" title="e-mail">
-                      
-                        <i class="fa fa-fw fa-envelope"></i>e-mail</a>
-                  </span>
-                
-            </div>
-          
-
-          
-          
-
-          
-          
-
-          
-
-        </div>
-      </section>
-
-      
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">June Chang</span>
 
   
-</div>
-
-
-
-        
-
-
-
-
-
-
-
-        
-      </div>
-    </footer>
-
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
+  <div class="widget-wrap">
+    <h3 class="widget-title">タグクラウド</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/机器学习/" style="font-size: 10px;">机器学习</a>
+    </div>
   </div>
 
   
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">アーカイブ</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li></ul>
+    </div>
+  </div>
 
 
   
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最近の投稿</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/04/14/机器学习基石（第3周）学习笔记-Types-of-Learning/">机器学习基石（第3周）学习笔记--Types of  Learning</a>
+          </li>
+        
+          <li>
+            <a href="/2018/04/04/机器学习基石上（第2周）学习笔记/">机器学习基石上（第2周）学习笔记--Learning to Answer Yes/No</a>
+          </li>
+        
+          <li>
+            <a href="/2018/04/01/机器学习基石上（第1周）学习笔记/">机器学习基石上（第1周）学习笔记--The learning Problem</a>
+          </li>
+        
+          <li>
+            <a href="/2018/03/26/Hello-github/">Markdowm简明语法学习</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
 
   
+</aside>
+        
+      </div>
+      <footer id="footer">
   
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
   
-
+    <a href="/" class="mobile-nav-link">Home</a>
   
+    <a href="/archives" class="mobile-nav-link">Archives</a>
   
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
+</nav>
+    
 
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/three.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/canvas_sphere.min.js"></script>
-  
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-  
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+<script src="/js/script.js"></script>
 
 
 
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-
+  </div>
 </body>
 </html>
